@@ -7,23 +7,22 @@ use_credentials="-u root -pDuoc.2019"
 #defaults_file="/etc/my.cnf"
 dump_file="/tmp/mysql_dump.sql"
 database="--all-databases"
-if [ -n "$use_credentials" ]
-then
-opts="$use_credentials"
+if [ -n "$use_credentials" ]; then
+  opts="$use_credentials"
 else
-echo "$0 : error, no mysql authentication method set" | logger
-exit 1
+  echo "$0 : error, no mysql authentication method set" | logger
+  exit 1
 fi
 
 opts="$opts $database"
 
 echo "$0 executing mysqldump" | logger
 mysqldump $opts >$dump_file 2>/dev/null
-if [ $? -ne 0 ]
-then
-echo "$0 : mysqldump failed" | logger
-exit 2
+if [ $? -ne 0 ]; then
+  echo "$0 : mysqldump failed" | logger
+  exit 2
 else
-echo "$0 : mysqldump suceeded" | logger
-sync;sync
+  echo "$0 : mysqldump suceeded" | logger
+  sync
+  sync
 fi
