@@ -4,8 +4,8 @@
 # otherwise, specify username and password below using use_credentials
 
 ### TELEGRAM CONFIGS ###
-ID="10793105"
-TOKEN="1440132496:AAHOI44f7PZNgZAWnxCQpG4jQWRrClljJJ8"
+ID="XXXXX"
+TOKEN="XXXXXXX:XXXXXXXXXXXXXXXXXXXXXX"
 URL="https://api.telegram.org/bot$TOKEN/sendMessage"
 ### END TELEGRAM CONFIGS ###
 
