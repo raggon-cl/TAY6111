@@ -2,15 +2,15 @@
 # config:
 # when running on debian we can use existing debian-sys-maint account using defaults file
 # otherwise, specify username and password below using use_credentials
-#use_credentials="-uroot -p"
-defaults_file="/etc/my.cnf"
+use_credentials="-uroot -pDuoc.2021"
+#defaults_file="/etc/my.cnf"
 timeout=30
 lock_file=/tmp/mysql_tables_read_lock
 ###
 if [ -f $defaults_file ]; then
   opts="--defaults-file=$defaults_file"
 fi
-if [ -n $use_credentials ]; then
+if [[ -n $use_credentials ]]; then
   opts="$opts $use_credentials"
 fi
 sleep_time=$((timeout + 10))
