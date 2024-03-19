@@ -1,4 +1,4 @@
-# TRY6101 - Tecnologias de Respaldo y Recuperacion
+# TAY6111 - Tecnologias de Respaldo y Recuperacion
 
 ### Comprobaciones
 - [x] RockyLinux 8 + MySQL 8 (Repo Default)
