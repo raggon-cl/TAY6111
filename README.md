@@ -8,6 +8,8 @@
 
 # NOMBRE DE ACTIVIDAD
 
+RockyLinux
+
 ## ANTECEDENTES GENERALES
 
 Esta guía tiene como objetivo instalar RockyLinux
@@ -20,13 +22,13 @@ Esta guía tiene como objetivo instalar RockyLinux
 
 Update: 21/05/2022
 
-## REQUERIMIENTOS PARA ESTA ACTIVIDAD
+<!-- ## REQUERIMIENTOS PARA ESTA ACTIVIDAD
 
 Para el desarrollo de esta actividad se requiere ...
 
 ## DESARROLLO DE ACTIVIDAD
 
-Esta actividad consiste en ...
+Esta actividad consiste en ... -->
 
 ## CONTRIBUCIONES
 
